@@ -1,6 +1,6 @@
 html, body {
 	color: #f1f1f1;
-	font-family: 'Roboto', sand-serif;
+	font-family: 'Karla', sans-serif;
 	letter-spacing: 1px;
 	scroll-behavior: smooth;
 	padding-top: 35px;
@@ -15,38 +15,38 @@ html, body {
 }
 
 h1{
-	font-family: 'Playfair Display';
+	font-family: 'Lora', serif;
 	font-size: 5em;
 	letter-spacing: 5px;
 }
 
 h2 {
-	font-family: 'Playfair Display';
+	font-family: 'Lora', serif;
 	font-size: 2.5em;
 	letter-spacing: 10px;
 	font-weight: bold;
 }
 
 h3{
-	font-family: 'Playfair Display';
+	font-family: 'Lora', serif;
 	font-size: 1.25em;
 	letter-spacing: 5px;
 }
 
 p{
-	font-family: 'Roboto';
+	font-family: 'Karla', sans-serif;
 	letter-spacing: 5px;
 	font-size: small;
 }
 
 p > b{
-	font-family: 'Roboto';
+	font-family: 'Karla', sans-serif;
 	font-size: medium;
 }
 
 .navbar{
 	background-color: #020202;
-	font-family: 'Roboto';
+	font-family: 'Karla', sans-serif;
 	font-size: x-small;
 	z-index: 3;
 	font-weight: bold;
