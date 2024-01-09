@@ -1,17 +1,17 @@
 html, body {
-	color: #000;
+	color: #f1f1f1;
 	font-family: 'Roboto', sand-serif;
 	letter-spacing: 1px;
 	scroll-behavior: smooth;
 	padding-top: 35px;
 	overflow-x: hidden;
-	background-color: #f1f1f1;
+	background-color: #000;
 }
 
 
 ::selection {
-	color: #000;
-	background: #A4161A;
+	color: #f1f1f1;
+	background: #690b2b;
 }
 
 h1{
@@ -20,29 +20,16 @@ h1{
 	letter-spacing: 5px;
 }
 
-h1 > a{
-	font-size: medium;
-	color: #fff!important;
-	text-decoration: none;
-	letter-spacing: 5px;
-}
-
-h1 > a:hover{
-	transform: translateY(-2px);
-	text-decoration: none!important;
-	color: #A4161A!important;
-}
-
 h2 {
 	font-family: 'Playfair Display';
-	font-size: 2.8em;
+	font-size: 2.5em;
 	letter-spacing: 10px;
 	font-weight: bold;
 }
 
 h3{
 	font-family: 'Playfair Display';
-	font-size: 1.2em;
+	font-size: 1.25em;
 	letter-spacing: 5px;
 }
 
@@ -60,26 +47,24 @@ p > b{
 .navbar{
 	background-color: #020202;
 	font-family: 'Roboto';
-	font-size: small;
+	font-size: x-small;
 	z-index: 3;
-	box-shadow: 0 4px 4px 0 rgba(0,0,0,.4);
+	font-weight: bold;
 }
 
 .nav-link{
-	color: #fff !important;
+	color: #f1f1f1 !important;
 	margin-top: 10px;
-	letter-spacing: 5px;
+	letter-spacing: 8px;
 }
 
 .nav-link:hover {
 	text-decoration: none!important;
-	color: #A4161A!important;
-	font-weight: bold;
-
+	color: #690b2b!important;
 }
 
 .nav-link b{
-	color: #A4161A!important;
+	color: #690b2b!important;
 }
 
 .navbar-toggler { 
@@ -92,7 +77,7 @@ p > b{
 
 .custom-toggler.navbar-toggler {
 	border-color: transparent;
-	margin-right: 1em;
+	margin-right: 10px;
 } 
 
 
@@ -133,12 +118,16 @@ p > b{
 	width: 100%;
 }
 
+.alto-home{
+	width: 250px;
+}
+
 .carousel-slide{
 	width: 100%!important;
 }
 
 .footer{
-	font-size: medium;
+	font-size: small;
 	text-align: center;
 	height: fit-content;
 	color: #f1f1f1;
@@ -147,21 +136,31 @@ p > b{
 
 .footer p{
 	font-size: small;
+	letter-spacing: 2px;
+}
+
+.cp{
+	font-size: xx-small!important;
+	letter-spacing: 1px;
 }
 
 .redx{
-	color: #A4161A;
+	color: #690b2b;
 	font-size: xx-large;
 }
 
 .red{
-	color: #A4161A;
+	color: #690b2b;
 	font-weight: bold;
+}
+
+.iconx{
+	font-size: x-large;
 }
 
 .footer-nav > a{
 	font-size: large;
-	color: #fff!important;
+	color: #f1f1f1!important;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -224,29 +223,30 @@ p > b{
 }
 
 .social-icon{
-	font-size: small;
+	font-size: medium;
 	color: #f1f1f1;
 	transition: .2s;
-	padding: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 
 }
 
 .social-icon-c{
 	font-size: x-large;
 	color: #f1f1f1;
-	transition: .2s;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 
 .social-icon:hover{
-	color: #fff;
+	color: #f1f1f1;
 }
 
 .team{
 	border: solid;
 	border-width: thick;
-	border-color: #fff;
+	border-color: #f1f1f1;
 	border-radius: 10px;
 	box-shadow: 0 4px 4px 0 rgba(0,0,0,.8);
 	width: 100%;
@@ -257,10 +257,6 @@ p > b{
 	width: 100%;
 }
 
-
-.cp{
-	font-size: xx-small!important;
-}
 
 hr{
 	padding: 0;
@@ -284,9 +280,9 @@ hr{
 }
 
 .btn:hover{
-	background-color: #A4161A;
-	color: #000;
-	border-color: #A4161A;
+	background-color: #690b2b;
+	color: #f1f1f1;
+	border-color: #690b2b;
 }
 
 .btn:focus, .btn:active, .btn:hover{
@@ -301,16 +297,16 @@ hr{
 	border-color: #000;
 	border-radius: 0px;
 	border-width: thin;
-	color: #fff;
+	color: #f1f1f1;
 	font-size: small;
 	letter-spacing: 2px;
 	transition: .2s;
 }
 
 .btn2:hover{
-	background-color: #A4161A;
-	color: #000;
-	border-color: #A4161A;
+	background-color: #690b2b;
+	color: #f1f1f1;
+	border-color: #690b2b;
 }
 
 .btn2:focus, .btn2:active, .btn2:hover{
@@ -320,7 +316,7 @@ hr{
 
 
 .yllw{
-	color: #A4161A;
+	color: #690b2b;
 }
 
 .alto{
@@ -328,12 +324,12 @@ hr{
 }
 
 .brandfooter{
-	height: 150px;
+	width: 150px!important;
 }
 
 .font-border{
 	color: transparent;
-	-webkit-text-stroke: .5px #fff;
+	-webkit-text-stroke: .5px #f1f1f1;
 	letter-spacing: 5px;
 }
 
@@ -391,7 +387,7 @@ hr{
 }
 
 .brandx{
-	width: 150px;
+	width: 200px;
 }
 
 .carousel-indicators > button {
@@ -418,7 +414,7 @@ hr{
 	height:100%;
 	width:100%;
 	position:absolute;
-	background-color: #fff;
+	background-color: #f1f1f1;
 }
 
 .form-control{
@@ -429,15 +425,35 @@ hr{
 }
 
 .form-control:focus{
-	background-color: #000;
+	background-color: #690b2b;
 	color: #f1f1f1!important;
 	box-shadow: none;
-	border-color: #000;
+	border-color: #690b2b;
 }
 
 
 .showlogo{
 	display: none;
+}
+
+.floating{
+	animation: float-btn 5s infinite linear;
+}
+
+.brandx:hover{
+	animation: float-btn 2s infinite linear;
+}
+
+@keyframes float-btn {
+	0% {
+		transform: scale(1.0);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1.0);
+	}
 }
 
 
@@ -478,6 +494,23 @@ hr{
 	h3{
 		font-size: medium;
 	}
+
+	.brands{
+		width: 100%;
+	}
+
+	.brandx{
+		width: 100%;
+	}
+
+	.brandfooter{
+		width: 100%;
+		height: auto;
+	}
+
+	.alto-home{
+		width: 60%;
+	}
 }
 
 /* width */
@@ -492,11 +525,11 @@ hr{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #fff;
+	background: #f1f1f1;
 	padding-top: 4px!important;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #A4161A;
+	background: #690b2b;
 }
