@@ -226,17 +226,11 @@
       <img src="img/logos/alto.png" class="pt-5 alto">
       <br><br>
       <div class="row">
-        <div class="col-lg-3 col-6">
-          <img src="img/logos/mito.png" class="py-5 brandfooter">
-        </div>
-        <div class="col-lg-3 col-6">
-          <img src="img/logos/zoukmaya.png" class="py-5 brandfooter">
-        </div>
-        <div class="col-lg-3 col-6">
-          <img src="img/logos/grandes.png" class="py-5 brandfooter">
-        </div>
-        <div class="col-lg-3 col-6">
-          <img src="img/logos/eme.png" class="py-5 brandfooter">
+        <div class="col-lg-12 owl-one owl-carousel owl-theme py-5">
+          <div class="logo-mrg"><img class="brandfooter" src="img/logos/mito.png"></div>
+          <div class="logo-mrg"><img class="brandfooter" src="img/logos/zoukmaya.png"></div>
+          <div class="logo-mrg"><img class="brandfooter" src="img/logos/grandes.png"></div>
+          <div class="logo-mrg"><img class="brandfooter" src="img/logos/eme.png"></div>
         </div>
       </div>
       <br>
@@ -402,6 +396,33 @@
       },
       1000:{
         items:1
+      }
+    }
+  })
+</script>
+
+<script type="text/javascript">
+  $('.owl-one').owlCarousel({
+    loop:true,
+    autoplay:true,
+    slideTransition: 'linear',
+    autoplayTimeout: 6000,
+    autoplaySpeed: 6000,
+    autoplayHoverPause: false,
+    nav:false,
+    dots:false,
+    mouseDrag: false,
+    stagePadding: 0,
+    responsive:{
+      0:{
+        items:2,
+      },
+      600:{
+        items:2,
+      },
+      1000:{
+        items:4
+
       }
     }
   })
