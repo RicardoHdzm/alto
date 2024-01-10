@@ -402,6 +402,10 @@ hr{
 	width: 200px;
 }
 
+.brand1{
+	width: 200px;
+}
+
 .carousel-indicators > button {
 	border-radius: 50%;
 	width: 12px !important;
@@ -512,6 +516,10 @@ hr{
 	}
 
 	.brandx{
+		width: 100%;
+	}
+
+	.brand1{
 		width: 100%;
 	}
 
