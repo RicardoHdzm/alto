@@ -15,6 +15,7 @@
 	<link rel="icon" href="img/logos/favicon.png">
 	<link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<script src="https://kit.fontawesome.com/3cd9aa6fad.js" crossorigin="anonymous"></script>
 </head>
 
@@ -197,8 +198,6 @@
 		</div>
 	</div>
 
-
-
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -207,6 +206,9 @@
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="/node_modules/jquery/dist/jquery.js"></script>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
 
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
@@ -214,6 +216,112 @@
 			duration: 3000,
 			disable: window.innerWidth < 768
 		});
+	</script>
+
+	<script>
+		$('.carousel').carousel({
+			interval: 7000;
+			ride: false;
+			pause: "hover";
+		})
+	</script>
+
+	<script>
+		$(document).ready(function(){
+			$('.owl-carousel').owlCarousel();
+		});
+	</script>
+
+	<script type="text/javascript">
+		$('.owl-mito').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			dots:false,
+			autoplay:true,
+			autoplayHoverPause:true,
+			stagePadding: 0,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})
+	</script>
+
+	<script type="text/javascript">
+		$('.owl-zouk').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			dots:false,
+			autoplay:true,
+			autoplayHoverPause:true,
+			stagePadding: 0,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})
+	</script>
+
+	<script type="text/javascript">
+		$('.owl-grandes').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			dots:false,
+			autoplay:true,
+			autoplayHoverPause:true,
+			stagePadding: 0,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})
+	</script>
+
+	<script type="text/javascript">
+		$('.owl-eme').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:false,
+			dots:false,
+			autoplay:true,
+			autoplayHoverPause:true,
+			stagePadding: 0,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		})
 	</script>
 
 	<script type="text/javascript">
@@ -243,5 +351,7 @@
 		})
 	</script>
 
+
+
 </body>
-</html> 
+</html>
