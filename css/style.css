@@ -122,6 +122,10 @@ p > b{
 	width: 250px;
 }
 
+.brands-home{
+	width: 450px;
+}
+
 .carousel-slide{
 	width: 100%!important;
 }
@@ -346,6 +350,14 @@ hr{
 	z-index: 2;
 }
 
+.brand-gallery-w{
+	width: 100%!important;
+}
+
+.brand-gallery-h{
+	height: 100%;
+}
+
 
 
 .overlay {
@@ -510,6 +522,14 @@ hr{
 
 	.alto-home{
 		width: 60%;
+	}
+
+	.brands-home{
+		width: 60%;
+	}
+
+	.brand-gallery-w{
+		height: fit-content;
 	}
 }
 
