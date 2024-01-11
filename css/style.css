@@ -209,15 +209,6 @@ p > b{
 	background-color: #000;
 }
 
-.grandes-us{
-	background-image: linear-gradient(
-		to bottom, transparent, #060814), url("../img/banner.jpg");
-	background-position: center;
-	height: 80vh;
-	background-size: cover;
-
-}
-
 .justify{
 	text-align: justify;
 }
