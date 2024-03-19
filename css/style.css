@@ -103,7 +103,6 @@ p > b{
 }
 
 
-
 .logo-nav-small{
 	width: 100px;
 }
@@ -127,6 +126,10 @@ p > b{
 
 .carousel-slide{
 	width: 100%!important;
+}
+
+.show{
+	display: none;
 }
 
 .footer{
@@ -469,6 +472,11 @@ hr{
 	.hide{
 		display: none;
 	}
+
+	.show{
+		display: inline;
+	}
+
 	.big{
 		font-size: 3em;
 	}
