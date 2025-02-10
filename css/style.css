@@ -14,6 +14,10 @@ html, body {
 	background: #690b2b;
 }
 
+div {
+  scroll-margin-top: 100px; /* Ajuste de desplazamiento para el navbar */
+}
+
 h1{
 	font-family: 'Lora', serif;
 	font-size: 5em;
@@ -35,19 +39,19 @@ h3{
 
 p{
 	font-family: 'Karla', sans-serif;
-	letter-spacing: 2px;
-	font-size: small;
+	letter-spacing: 1px;
+	font-size: medium;
 }
 
 p > b{
 	font-family: 'Karla', sans-serif;
-	font-size: medium;
+	font-size: large;
 }
 
 .navbar{
 	background-color: #020202;
 	font-family: 'Karla', sans-serif;
-	font-size: x-small;
+	font-size: small;
 	z-index: 3;
 	font-weight: bold;
 }
@@ -239,6 +243,7 @@ p > b{
 .social-icon:hover{
 	color: #f1f1f1;
 }
+
 
 .team{
 	border: solid;
