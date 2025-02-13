@@ -1,74 +1,77 @@
 html, body {
-	color: #f1f1f1;
-	font-family: 'Karla', sans-serif;
+	color: #f5f5f5;
 	letter-spacing: 1px;
 	scroll-behavior: smooth;
-	padding-top: 35px;
 	overflow-x: hidden;
 	background-color: #000;
+	height: 100%;
 }
 
 
 ::selection {
-	color: #f1f1f1;
-	background: #690b2b;
+	color: #f5f5f5;
+	background: #ca2422;
 }
 
-div {
-  scroll-margin-top: 100px; /* Ajuste de desplazamiento para el navbar */
+/* RESET */
+div, img {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	scroll-margin-top: 100px; /* Ajuste de desplazamiento para el navbar */
 }
 
 h1{
 	font-family: 'Lora', serif;
-	font-size: 5em;
+	font-size: 5rem;
 	letter-spacing: 5px;
 }
 
 h2 {
 	font-family: 'Lora', serif;
-	font-size: 2.5em;
+	font-size: 3.5rem;
 	letter-spacing: 10px;
 	font-weight: bold;
 }
 
 h3{
 	font-family: 'Lora', serif;
-	font-size: 1.25em;
+	font-size: 2rem;
+	font-weight: bold;
 	letter-spacing: 5px;
 }
 
 p{
 	font-family: 'Karla', sans-serif;
 	letter-spacing: 1px;
-	font-size: medium;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
-p > b{
-	font-family: 'Karla', sans-serif;
-	font-size: large;
-}
 
 .navbar{
 	background-color: #020202;
 	font-family: 'Karla', sans-serif;
-	font-size: small;
+	font-size: 1.2rem;
 	z-index: 3;
 	font-weight: bold;
 }
 
 .nav-link{
-	color: #f1f1f1 !important;
+	color: #f5f5f5 ;
 	margin-top: 10px;
 	letter-spacing: 8px;
 }
 
 .nav-link:hover {
-	text-decoration: none!important;
-	color: #690b2b!important;
+	text-decoration: none;
+	color: #ca2422;
 }
 
 .nav-link b{
-	color: #690b2b!important;
+	color: #ca2422;
 }
 
 .navbar-toggler { 
@@ -86,7 +89,7 @@ p > b{
 
 
 .custom-toggler:focus, .custom-toggler:active, .custom-toggler:hover{
-	box-shadow: none!important;
+	box-shadow: none;
 	outline: 0;
 }
 
@@ -116,20 +119,45 @@ p > b{
 	margin-top: -200px;
 }
 
+textarea{
+	resize: none;
+}
+
+.home, .home-brands, .home-join, .home-contact{
+	height: 100vh;
+	background-position: center;
+}
+
 .home{
-	width: 100%;
+	background-image: url("../img/banners/1.jpg");
+}
+
+.home-brands{
+	background-image: url("../img/banners/2.jpg");
+}
+
+.home-join{
+	background-image: url("../img/banners/3.jpg");
+}
+
+.home-contact{
+	background-image: url("../img/banners/4.jpg");
+}
+
+#Mito p, #Zoukmaya p, #Grandes p, #Eme p{
+	font-size: 1.5rem;
+}
+
+.home.text{
+	height: fit-content;
 }
 
 .alto-home{
-	width: 250px;
+	width: 50rem;
 }
 
 .brands-home{
 	width: 450px;
-}
-
-.carousel-slide{
-	width: 100%!important;
 }
 
 .show{
@@ -137,40 +165,33 @@ p > b{
 }
 
 .footer{
-	font-size: small;
-	text-align: center;
 	height: fit-content;
-	color: #f1f1f1;
+	color: #f5f5f5;
 	background-color: #000;
 }
 
 .footer p{
-	font-size: small;
+	font-size: 1.2rem;
 	letter-spacing: 2px;
 }
 
+.footer h3{
+	font-size: 1.5rem;
+}
+
 .cp{
-	font-size: xx-small!important;
+	font-size: .8rem!important;
 	letter-spacing: 1px;
 }
 
 .redx{
-	color: #690b2b;
-	font-size: xx-large;
-}
-
-.red{
-	color: #690b2b;
-	font-weight: bold;
-}
-
-.iconx{
-	font-size: x-large;
+	color: #ca2422;
+	font-size: 3rem;
 }
 
 .footer-nav > a{
-	font-size: large;
-	color: #f1f1f1!important;
+	font-size: 1.2rem;
+	color: #f5f5f5;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -187,36 +208,39 @@ p > b{
 	color: #060814;
 	height: fit-content;
 	text-align: center;
-	background-color: #f1f1f1;
+	background-color: #f5f5f5;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='10' stroke-opacity='0.57'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.rotatext{
-	transform: rotate(-90deg)!important;
-	overflow: hidden;
-
-}
 
 .alto-w{	
+	height: 100vh;
+	text-align: center;
+	color: #000;
+	background-color: #f5f5f5;
+}
+
+
+.brand-w{	
 	height: fit-content;
 	text-align: center;
 	color: #000;
-	background-color: #f1f1f1;
+	background-color: #f5f5f5;
 }
 
-.alto-w p{
-	font-weight: bold;
-}
 
-.alto-b{
+.brand-b{	
 	height: fit-content;
 	text-align: center;
-	color: #f1f1f1;
+	color: #f5f5f5;
 	background-color: #000;
 }
 
-.justify{
-	text-align: justify;
+.alto-b{
+	height: 100vh;
+	text-align: center;
+	color: #f5f5f5;
+	background-color: #000;
 }
 
 .invert{
@@ -224,31 +248,32 @@ p > b{
 }
 
 .social-icon{
-	font-size: medium;
-	color: #f1f1f1;
+	font-size: 2rem;
+	color: #f5f5f5;
 	transition: .2s;
 	padding-right: 20px;
 	padding-left: 20px;
 
 }
 
-.social-icon-c{
-	font-size: x-large;
-	color: #f1f1f1;
-	padding-left: 20px;
-	padding-right: 20px;
-
+.social-icon:hover{
+	color: #ca2422;
 }
 
-.social-icon:hover{
-	color: #f1f1f1;
+.red{
+	color: #ca2422;
+	font-weight: bold;
+}
+
+.iconx{
+	font-size: 2.2rem;
 }
 
 
 .team{
 	border: solid;
 	border-width: thick;
-	border-color: #f1f1f1;
+	border-color: #f5f5f5;
 	border-radius: 10px;
 	box-shadow: 0 4px 4px 0 rgba(0,0,0,.8);
 	width: 100%;
@@ -263,32 +288,32 @@ p > b{
 hr{
 	padding: 0;
 	border: 0;
-	color: #f1f1f1;
+	color: #f5f5f5;
 	text-align: center;
 	opacity: 1;
 }
 
 .btn{
 	font-family: 'Roboto';	
-	background-color: #f1f1f1;
+	background-color: #f5f5f5;
 	border: solid;
-	border-color: #f1f1f1;
+	border-color: #f5f5f5;
 	border-radius: 0px;
 	border-width: thin;
 	color: #000;
-	font-size: small;
+	font-size: 1.2rem;
 	letter-spacing: 2px;
 	transition: .2s;
 }
 
 .btn:hover{
-	background-color: #690b2b;
-	color: #f1f1f1;
-	border-color: #690b2b;
+	background-color: #ca2422;
+	color: #f5f5f5;
+	border-color: #ca2422;
 }
 
 .btn:focus, .btn:active, .btn:hover{
-	box-shadow: none!important;
+	box-shadow: none;
 	outline: 0;
 }
 
@@ -299,44 +324,44 @@ hr{
 	border-color: #000;
 	border-radius: 0px;
 	border-width: thin;
-	color: #f1f1f1;
-	font-size: small;
+	color: #f5f5f5;
+	font-size: 1.2rem;
 	letter-spacing: 2px;
 	transition: .2s;
 }
 
 .btn2:hover{
-	background-color: #690b2b;
-	color: #f1f1f1;
-	border-color: #690b2b;
+	background-color: #ca2422;
+	color: #f5f5f5;
+	border-color: #ca2422;
 }
 
 .btn2:focus, .btn2:active, .btn2:hover{
-	box-shadow: none!important;
+	box-shadow: none;
 	outline: 0;
 }
 
 
 .yllw{
-	color: #690b2b;
+	color: #ca2422;
 }
 
 .alto{
-	width: 150px;
+	width: 15rem;
 }
 
-.brandfooter{
-	width: 150px!important;
+.brandslider{
+	width: 15rem!important;
 }
 
 .font-border{
 	color: transparent;
-	-webkit-text-stroke: .5px #f1f1f1;
+	-webkit-text-stroke: .5px #f5f5f5;
 	letter-spacing: 5px;
 }
 
 .big{
-	font-size: 5em;
+	font-size: 5rem;
 }
 
 .img-gallery{
@@ -349,7 +374,7 @@ hr{
 }
 
 .brand-gallery-w{
-	width: 100%!important;
+	width: 100%;
 }
 
 .brand-gallery-h{
@@ -393,27 +418,15 @@ hr{
 
 
 .brands{
-	width: 300px;
+	width: 25rem;
 }
 
 .brandx{
-	width: 200px;
+	width: 15rem;
 }
 
-.brand1{
-	width: 200px;
-}
-
-.carousel-indicators > button {
-	border-radius: 50%;
-	width: 12px !important;
-	height: 12px !important;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-	width: 3vw;
-	height: 3vw;
+.brand-join{
+	width: 15rem;
 }
 
 .map-container{
@@ -428,21 +441,38 @@ hr{
 	height:100%;
 	width:100%;
 	position:absolute;
-	background-color: #f1f1f1;
+	background-color: #f5f5f5;
 }
 
 .form-control{
-	background-color: #f1f1f1;
-	color: #060814!important;
+	background-color: #f5f5f5;
+	color: #060814;
 	border-color: #060814;
 	border-radius: 0px;
 }
 
 .form-control:focus{
-	background-color: #690b2b;
-	color: #f1f1f1!important;
+	background-color: rgba(02, 0, 0, .1);
+	color: #000;
 	box-shadow: none;
-	border-color: #690b2b;
+	border-color: #ca2422;
+}
+
+select {
+	width: 100%;
+	padding: 8px;
+	background-color: #f5f5f5;
+	color: #060814;
+	border-color: #060814;
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+
+select:focus {
+	outline: none;
+	background-color: rgba(0, 0, 0, .1);
+	color: #000;
+	border-color: #ca2422;
 }
 
 
@@ -473,7 +503,7 @@ hr{
 
 
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1550px) {
 	.hide{
 		display: none;
 	}
@@ -483,11 +513,11 @@ hr{
 	}
 
 	.big{
-		font-size: 3em;
+		font-size: 3rem;
 	}
 	.showlogo{
-		display: inline!important;
-		width: 30px!important;
+		display: inline;
+		width: 30px;
 	}
 
 	.navbar{
@@ -498,41 +528,54 @@ hr{
 		text-align: left;
 	}
 
+	.brand-b{
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+
+	.brand-w{
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+
 	.nav-item{
 		width: fit-content;
 	}
 
 	h1{
-		font-size: xx-large;
+		font-size: 3rem;
 	}
 
 	h2{
-		font-size: x-large;
+		font-size: 2.5rem;
 	}
 
 	h3{
-		font-size: medium;
+		font-size: 1.5rem;
+	}
+
+	p{
+		font-size: 1.2rem;
 	}
 
 	.brands{
-		width: 100%;
+		width: 20rem;
 	}
 
 	.brandx{
-		width: 100%;
+		width: 10rem;
 	}
 
-	.brand1{
-		width: 100%;
+	.brand-join{
+		width: 12rem;
 	}
 
-	.brandfooter{
-		width: 100%;
-		height: auto;
+	.brandslider{
+		width: 10rem;
 	}
 
 	.alto-home{
-		width: 60%;
+		width: 20rem;
 	}
 
 	.brands-home{
@@ -541,7 +584,19 @@ hr{
 
 	.brand-gallery-w{
 		width: fit-content;
-		height: auto!important;
+		height: auto;
+	}
+
+	alto-w{
+		height: fit-content;
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+
+	alto-b{
+		height: fit-content;
+		margin-top: 10rem;
+		margin-bottom: 10rem;
 	}
 }
 
@@ -557,11 +612,11 @@ hr{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #f1f1f1;
-	padding-top: 4px!important;
+	background: #f5f5f5;
+	padding-top: 4px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #690b2b;
+	background: #ca2422;
 }
