@@ -44,6 +44,10 @@ h3{
 	letter-spacing: 5px;
 }
 
+h1, h2, h3{
+	text-transform: uppercase;
+}
+
 p{
 	letter-spacing: 1px;
 	font-size: 1.5rem;
@@ -138,6 +142,7 @@ textarea{
 
 .home-join{
 	background-image: url("../img/banners/3.jpg");
+	background-position: 60%;
 }
 
 .home-contact{
@@ -160,10 +165,6 @@ textarea{
 	width: 450px;
 }
 
-.show{
-	display: none;
-}
-
 .footer{
 	height: fit-content;
 	color: #f5f5f5;
@@ -179,21 +180,9 @@ textarea{
 	font-size: 1.5rem;
 }
 
-.cp{
-	font-size: .8rem!important;
+.copy{
+	font-size: .6rem!important;
 	letter-spacing: 1px;
-}
-
-.redx{
-	color: #ca2422;
-	font-size: 3rem;
-}
-
-.footer-nav > a{
-	font-size: 1.2rem;
-	color: #f5f5f5;
-	font-weight: bold;
-	text-decoration: none;
 }
 
 .logo{
@@ -203,15 +192,6 @@ textarea{
 .logo-footer{
 	width: 200px;
 }
-
-.grandes-white{
-	color: #060814;
-	height: fit-content;
-	text-align: center;
-	background-color: #f5f5f5;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='10' stroke-opacity='0.57'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
-}
-
 
 .alto-w{	
 	height: 100vh;
@@ -227,7 +207,6 @@ textarea{
 	color: #000;
 	background-color: #f5f5f5;
 }
-
 
 .brand-b{	
 	height: fit-content;
@@ -269,22 +248,6 @@ textarea{
 	font-size: 2.2rem;
 }
 
-
-.team{
-	border: solid;
-	border-width: thick;
-	border-color: #f5f5f5;
-	border-radius: 10px;
-	box-shadow: 0 4px 4px 0 rgba(0,0,0,.8);
-	width: 100%;
-
-}
-
-.slide{
-	width: 100%;
-}
-
-
 hr{
 	padding: 0;
 	border: 0;
@@ -305,7 +268,7 @@ hr{
 	letter-spacing: 2px;
 	transition: .2s;
 	padding: 10px;
-  width: 300px;
+	width: 300px;
 }
 
 .btn:hover{
@@ -330,7 +293,7 @@ hr{
 	font-size: 1.2rem;
 	letter-spacing: 2px;
 	padding: 10px;
-  width: 300px;
+	width: 300px;
 	transition: .2s;
 }
 
@@ -345,27 +308,12 @@ hr{
 	outline: 0;
 }
 
-
-.yllw{
-	color: #ca2422;
-}
-
 .alto{
 	width: 15rem;
 }
 
 .brandslider{
 	width: 15rem!important;
-}
-
-.font-border{
-	color: transparent;
-	-webkit-text-stroke: .5px #f5f5f5;
-	letter-spacing: 5px;
-}
-
-.big{
-	font-size: 5rem;
 }
 
 .img-gallery{
@@ -385,8 +333,6 @@ hr{
 	height: 100%;
 }
 
-
-
 .overlay {
 	position: absolute;
 	top: 0;
@@ -400,7 +346,6 @@ hr{
 	background-color: #060814;
 	cursor: pointer;
 }
-
 
 
 .img-gallery{
@@ -567,17 +512,13 @@ select:focus {
 		font-size: 1.5rem;
 	}
 
-	h1, h2, h3{
-		text-transform: uppercase;
-	}
-
 	p{
 		font-size: 1.2rem;
 	}
 
 	#Mito p, #Zoukmaya p, #Grandes p, #Eme p{
-	font-size: 1.2rem;
-}
+		font-size: 1.2rem;
+	}
 
 	.brands{
 		width: 20rem;
@@ -631,12 +572,12 @@ select:focus {
 
 /* width */
 ::-webkit-scrollbar {
-	width: 8px;
+	width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: #03050b;
+	background: #080808;
 }
 
 /* Handle */
