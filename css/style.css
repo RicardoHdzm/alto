@@ -572,9 +572,17 @@ select:focus {
 		font-size: 1.5rem;
 	}
 
+	h1, h2, h3{
+		text-transform: uppercase;
+	}
+
 	p{
 		font-size: 1.2rem;
 	}
+
+	#Mito p, #Zoukmaya p, #Grandes p, #Eme p{
+	font-size: 1.2rem;
+}
 
 	.brands{
 		width: 20rem;
