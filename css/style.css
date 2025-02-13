@@ -1,6 +1,7 @@
 html, body {
 	color: #f5f5f5;
 	letter-spacing: 1px;
+	font-family: 'Karla', sans-serif;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 	background-color: #000;
@@ -44,7 +45,6 @@ h3{
 }
 
 p{
-	font-family: 'Karla', sans-serif;
 	letter-spacing: 1px;
 	font-size: 1.5rem;
 	font-weight: bold;
@@ -53,8 +53,7 @@ p{
 
 .navbar{
 	background-color: #020202;
-	font-family: 'Karla', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	z-index: 3;
 	font-weight: bold;
 }
@@ -94,7 +93,7 @@ p{
 }
 
 .logo-nav{
-	width: 100px;
+	width: 10rem;
 }
 
 .gallery{
@@ -520,10 +519,6 @@ select:focus {
 	.big{
 		font-size: 3rem;
 	}
-	.showlogo{
-		display: inline;
-		width: 30px;
-	}
 
 	.navbar{
 		padding-left: 40px;
@@ -555,10 +550,10 @@ select:focus {
 		padding-bottom: 10rem;
 	}
 
-
 	.nav-item{
 		width: fit-content;
 	}
+
 
 	h1{
 		font-size: 3rem;
@@ -606,6 +601,10 @@ select:focus {
 
 	.brands-home{
 		width: 60%;
+	}
+
+	.logo-nav{
+		width: 7.5rem;
 	}
 
 	.btn, .btn2{
