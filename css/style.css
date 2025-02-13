@@ -126,6 +126,7 @@ textarea{
 .home, .home-brands, .home-join, .home-contact{
 	height: 100vh;
 	background-position: center;
+	background-size: cover;
 }
 
 .home{
@@ -294,16 +295,18 @@ hr{
 }
 
 .btn{
-	font-family: 'Roboto';	
 	background-color: #f5f5f5;
 	border: solid;
 	border-color: #f5f5f5;
 	border-radius: 0px;
 	border-width: thin;
+	font-weight: bold;
 	color: #000;
 	font-size: 1.2rem;
 	letter-spacing: 2px;
 	transition: .2s;
+	padding: 10px;
+  width: 300px;
 }
 
 .btn:hover{
@@ -318,15 +321,17 @@ hr{
 }
 
 .btn2{
-	font-family: 'Roboto';	
 	background-color: #000;
 	border: solid;
 	border-color: #000;
 	border-radius: 0px;
 	border-width: thin;
+	font-weight: bold;
 	color: #f5f5f5;
 	font-size: 1.2rem;
 	letter-spacing: 2px;
+	padding: 10px;
+  width: 300px;
 	transition: .2s;
 }
 
@@ -538,6 +543,19 @@ select:focus {
 		padding-bottom: 10rem;
 	}
 
+	.alto-b{
+		height: fit-content;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+
+	.alto-w{
+		height: fit-content;
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
+
+
 	.nav-item{
 		width: fit-content;
 	}
@@ -571,7 +589,7 @@ select:focus {
 	}
 
 	.brandslider{
-		width: 10rem;
+		width: 8rem!important;
 	}
 
 	.alto-home{
@@ -580,6 +598,10 @@ select:focus {
 
 	.brands-home{
 		width: 60%;
+	}
+
+	.btn, .btn2{
+		font-size: .8rem;
 	}
 
 	.brand-gallery-w{
