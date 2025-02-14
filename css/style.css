@@ -424,11 +424,6 @@ select:focus {
 	border-color: #ff0033;
 }
 
-
-.showlogo{
-	display: none;
-}
-
 .floating{
 	animation: float-btn 5s infinite linear;
 }
@@ -436,20 +431,6 @@ select:focus {
 .brandx:hover{
 	animation: float-btn 2s infinite linear;
 }
-
-@keyframes float-btn {
-	0% {
-		transform: scale(1.0);
-	}
-	50% {
-		transform: scale(1.1);
-	}
-	100%{
-		transform: scale(1.0);
-	}
-}
-
-
 
 
 @media only screen and (max-width: 1550px) {
@@ -533,7 +514,7 @@ select:focus {
 	}
 
 	.brandslider{
-		width: 8rem!important;
+		width: 12rem!important;
 	}
 
 	.alto-home{
@@ -567,6 +548,85 @@ select:focus {
 		height: fit-content;
 		margin-top: 10rem;
 		margin-bottom: 10rem;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	h1, h2 {
+		font-size: 2.5rem!important;
+	}
+
+	h3, h4, p {
+		font-size: 1.8rem;
+	}
+
+	.btn, .btn2{
+		font-size: 1.2rem;
+	}
+}
+
+/* Teléfonos grandes (425px - 767px) */
+@media only screen and (max-width: 767px) {
+
+	.cardx h2{
+		font-size: 3.5rem!important;
+	}
+
+	h1, h2{
+		font-size: 3.5rem;
+	}
+
+	h3, h4 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 1.2rem;
+	}
+
+
+}
+
+/* Teléfonos medianos (375px - 424px) */
+@media only screen and (max-width: 424px) {
+
+	h1, h2 {
+		font-size: 2rem;
+	}
+
+	h3, h4, p {
+		font-size: 1.2rem;
+	}
+
+	.btn, .btn2 {
+		font-size: 1rem;
+		width: 250px;
+	}
+
+}
+
+/* Teléfonos pequeños (hasta 374px) */
+@media only screen and (max-width: 374px) {
+
+	h1, h2 {
+		font-size: 3rem;
+	}
+
+	h3{
+		font-size: 2rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+
+	.btn {
+		font-size: 0.7rem;
+	}
+
+	.btn{
+		width: 200px;
 	}
 }
 
