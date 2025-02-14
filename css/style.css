@@ -11,7 +11,7 @@ html, body {
 
 ::selection {
 	color: #f5f5f5;
-	background: #ca2422;
+	background: #a32633;
 }
 
 /* RESET */
@@ -68,13 +68,13 @@ p{
 	letter-spacing: 8px;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
 	text-decoration: none;
-	color: #ca2422;
+	color: #a32633;
 }
 
 .nav-link b{
-	color: #ca2422;
+	color: #a32633;
 }
 
 .navbar-toggler { 
@@ -236,11 +236,11 @@ textarea{
 }
 
 .social-icon:hover{
-	color: #ca2422;
+	color: #a32633;
 }
 
 .red{
-	color: #ca2422;
+	color: #a32633;
 	font-weight: bold;
 }
 
@@ -272,9 +272,9 @@ hr{
 }
 
 .btn:hover{
-	background-color: #ca2422;
+	background-color: #a32633;
 	color: #f5f5f5;
-	border-color: #ca2422;
+	border-color: #a32633;
 }
 
 .btn:focus, .btn:active, .btn:hover{
@@ -298,9 +298,9 @@ hr{
 }
 
 .btn2:hover{
-	background-color: #ca2422;
+	background-color: #a32633;
 	color: #f5f5f5;
-	border-color: #ca2422;
+	border-color: #a32633;
 }
 
 .btn2:focus, .btn2:active, .btn2:hover{
@@ -404,7 +404,7 @@ hr{
 	background-color: rgba(02, 0, 0, .1);
 	color: #000;
 	box-shadow: none;
-	border-color: #ca2422;
+	border-color: #a32633;
 }
 
 select {
@@ -421,7 +421,7 @@ select:focus {
 	outline: none;
 	background-color: rgba(0, 0, 0, .1);
 	color: #000;
-	border-color: #ca2422;
+	border-color: #a32633;
 }
 
 
@@ -588,5 +588,5 @@ select:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #ca2422;
+	background: #a32633;
 }
