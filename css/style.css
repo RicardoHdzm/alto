@@ -679,4 +679,5 @@ select:focus {
 
 .whapp{
   width: 3rem;
+  pointer-events: none;
 }
