@@ -650,3 +650,33 @@ select:focus {
 ::-webkit-scrollbar-thumb:hover {
 	background: #ff0033;
 }
+
+#whappBtn {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  z-index: 90;
+  outline: none; 
+  background-color: #000; 
+  cursor: pointer;
+  font-weight: bolder;
+  border-color: #fff!important;
+  border: solid;
+  border-width: .25rem;
+  transition: 0.5s ease;
+  border-radius: 100%;
+  padding: 1.2rem!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 0 0.5rem #000);
+}
+
+#whappBtn:hover {
+  background-color: #ff0033;
+  transform: translateY(-.5rem);
+}
+
+.whapp{
+  width: 3rem;
+}
