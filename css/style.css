@@ -1,4 +1,4 @@
-html, body {
+body {
 	color: #f7f7f7;
 	letter-spacing: 1px;
 	font-family: 'Karla', sans-serif;
@@ -378,21 +378,6 @@ hr{
 	width: 15rem;
 }
 
-.map-container{
-	overflow:hidden;
-	position:relative;
-	height: 0;
-}
-
-.map-container iframe{
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	position:absolute;
-	background-color: #f7f7f7;
-}
-
 .form-control{
 	background-color: #f7f7f7;
 	color: #060814;
@@ -637,13 +622,12 @@ select:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: #080808;
+	background: transparent;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #f7f7f7;
-	padding-top: 4px;
 }
 
 /* Handle on hover */
