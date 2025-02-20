@@ -1,4 +1,4 @@
-body {
+body{
 	color: #f7f7f7;
 	letter-spacing: 1px;
 	font-family: 'Karla', sans-serif;
@@ -16,8 +16,8 @@ body {
 
 /* RESET */
 div, img {
-	margin: 0;
-	padding: 0;
+	margin: 0!important;
+	padding: 0!important;
 }
 
 section {
@@ -158,7 +158,7 @@ textarea{
 }
 
 .alto-home{
-	width: 50rem;
+	width: 25rem;
 }
 
 .brands-home{
@@ -309,7 +309,7 @@ hr{
 }
 
 .alto{
-	width: 15rem;
+	width: 10rem;
 }
 
 .brandslider{
@@ -449,6 +449,10 @@ select:focus {
 		padding-bottom: 10rem;
 	}
 
+	.brand-b p, .brand-w p{
+		font-size: 1.8rem!important;
+	}
+
 	.alto-b{
 		height: fit-content;
 		padding-top: 10rem;
@@ -457,8 +461,8 @@ select:focus {
 
 	.alto-w{
 		height: fit-content;
-		padding-top: 10rem;
-		padding-bottom: 10rem;
+		padding-top: 10rem!important;
+		padding-bottom: 10rem!important;
 	}
 
 	.nav-item{
@@ -502,15 +506,15 @@ select:focus {
 		width: 12rem!important;
 	}
 
-	.alto-home{
-		width: 60%;
-	}
-
 	.brands-home{
 		width: 60%;
 	}
 
 	.logo-nav{
+		width: 7.5rem;
+	}
+
+	.alto{
 		width: 7.5rem;
 	}
 
@@ -570,6 +574,14 @@ select:focus {
 		font-size: 1.2rem;
 	}
 
+	.brand-b p, .brand-w p{
+		font-size: 1.2rem!important;
+	}
+
+	.alto-home{
+		width: 20rem;
+	}
+
 
 }
 
@@ -595,7 +607,7 @@ select:focus {
 @media only screen and (max-width: 374px) {
 
 	h1, h2 {
-		font-size: 3rem;
+		font-size: 2rem!important;
 	}
 
 	h3{
@@ -604,6 +616,10 @@ select:focus {
 
 	p {
 		font-size: 1rem;
+	}
+
+	.brand-b p, .brand-w p{
+		font-size: 1rem!important;
 	}
 
 	.btn {
@@ -636,32 +652,32 @@ select:focus {
 }
 
 #whappBtn {
-  position: fixed;
-  bottom: 2.5rem;
-  right: 2.5rem;
-  z-index: 90;
-  outline: none; 
-  background-color: #000; 
-  cursor: pointer;
-  font-weight: bolder;
-  border-color: #fff!important;
-  border: solid;
-  border-width: .25rem;
-  transition: 0.5s ease;
-  border-radius: 100%;
-  padding: 1.2rem!important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  filter: drop-shadow(0 0 0.5rem #000);
+	position: fixed;
+	bottom: 2.5rem;
+	right: 2.5rem;
+	z-index: 90;
+	outline: none; 
+	background-color: #000; 
+	cursor: pointer;
+	font-weight: bolder;
+	border-color: #fff!important;
+	border: solid;
+	border-width: .25rem;
+	transition: 0.5s ease;
+	border-radius: 100%;
+	padding: 1.2rem!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	filter: drop-shadow(0 0 0.5rem #000);
 }
 
 #whappBtn:hover {
-  background-color: #ff0033;
-  transform: translateY(-.5rem);
+	background-color: #ff0033;
+	transform: translateY(-.5rem);
 }
 
 .whapp{
-  width: 3rem;
-  pointer-events: none;
+	width: 3rem;
+	pointer-events: none;
 }
