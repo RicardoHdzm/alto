@@ -700,7 +700,7 @@ p { font-size: 1.05rem; line-height: 1.7; color: var(--stone); }
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0 4px 20px rgba(0,0,0,.5);
+	box-shadow: 0 1px 4px rgba(0,0,0,.35);
 	transition: transform .3s var(--ease), background .3s var(--ease);
 }
 
